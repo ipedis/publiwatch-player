@@ -1,0 +1,265 @@
+/**
+* stylesheet for pwPlayer
+* @author Ipedis
+*
+*/
+
+video{
+  background-color: #000000;
+}
+
+.movieWrapper{
+  z-index: 1;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+}
+
+.movieControlBar .btnLinkTitle{
+  border: 0;
+  /*clip: rect(0 0 0 0);*/
+  /*height: 1px;*/
+  /*margin: -1px;*/
+  overflow: hidden;
+  padding: 0;
+  /*position: absolute;*/
+  /*width: 1px;*/
+}
+
+.movieControlBar {
+  position: relative;
+  z-index: 3;
+  background: #333333;
+  background-image: url("../img/background_commandBar.png");
+  width: inherit;
+  height:36px;
+}
+
+
+.movieControlBar button{
+  /*height:36px;*/
+  padding: 0;
+  width: 45px;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top:0;
+  left:0;
+}
+
+.movieControlBar .btnMute{
+  width:23px;
+}
+
+.movieControlBar .volumeWrapper{
+  z-index: 2;
+  width: 105px;
+  height: 35px;
+  background-image: url("../img/background_commandBar.png");
+  background-repeat: repeat-x;
+  position: absolute;
+  top:0;
+  left:0;
+  padding-left: 5px;
+}
+
+.movieControlBar .volumeWrapper .volume {
+  width: 100px;
+  display: inline-block;
+  cursor:pointer;
+}
+
+.movieControlBar .movieTimeInfo{
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: 'Arial', Tahoma, Geneva, Kalimati, sans-serif;
+  display: inline-block; 
+  margin-left: 3px;
+  margin-right: 3px;
+  position: relative;
+  top: 7px;
+}
+
+.movieControlBar .timeBar{
+  position : absolute;
+  background-image: url("../img/background_commandBar.png");
+  background-repeat: repeat-x;
+  padding-left: 5px;
+  position: relative;
+  top:0;
+  left:0;
+  height: 35px;
+}
+
+.movieControlBar .time{
+  width: 350px;
+  display: inline-block;
+  cursor: pointer;
+}
+
+@-moz-document url-prefix()
+{
+    .movieControlBar .volumeWrapper{
+      bottom: 3px;
+    }
+    .movieControlBar .timeBar{
+      bottom: 3px;
+    }
+}
+
+
+.videosub-bar{
+  z-index: 10;
+  text-align: center;
+  color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  font-weight:bold;
+  text-shadow: #000000 1px 1px 10px;
+  height: 25px;
+
+  /*Position normale */
+  position: absolute;
+  bottom: 15px;
+}
+
+.toolTip{
+  background-image: url(../img/info-bulle-background-large.png);
+  background-repeat: no-repeat;
+  background-size: 130px;
+  min-height: 25px;
+  z-index: 5;
+
+  color: #FFFFFF;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+  padding-left: 5px;
+  padding-right: 4px;
+  padding-top: 7px;
+  position: absolute;
+  display: inline;
+}
+
+.message_erreur_format_video_html{
+  color:#FF0000;
+  font-weight: bolder;
+  position: absolute;
+  z-index: 10;
+}
+
+.helpMovie{
+  width: 300px;
+  height: 180px;
+  background-color: #333333;
+  opacity: 0.95;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+}
+
+.helpMovie p{
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 5px;
+  color: #FFFFFF;
+  font-family: Tahoma, Geneva, Kalimati, sans-serif;
+  font-size: 11px;
+}
+
+.helpMovie .helpMovieTitle{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.helpMovie a{
+  color: #FFFFFF;
+  font-family: Tahoma, Geneva, Kalimati, sans-serif;
+  font-size: 11px;
+}
+
+
+/* ---- MouseEvent skin ---- */
+
+/*.btnPlay{
+  background: transparent url(../img/Play.png) no-repeat center center;
+}
+.btnPlay:hover, .btnPlay:focus{
+  background: transparent url(../img/PlayOver.png) no-repeat center center;
+}
+.btnPause{
+  background: transparent url(../img/Pause.png) no-repeat center center;
+}
+.btnPause:hover, .btnPause:focus{
+  background: transparent url(../img/PauseOver.png) no-repeat center center;
+}
+
+
+.btnVolumeOff{
+  background: transparent url(../img/MuteOff.png) no-repeat center center;
+}
+.btnVolumeOff:hover, .btnVolumeOff:focus{
+  background: transparent url(../img/MuteOn.png) no-repeat center center;
+}
+.btnVolumeOn{
+  background: transparent url(../img/MuteOn.png) no-repeat center center;
+}   
+.btnVolumeOn:hover, .btnVolumeOn:focus{
+  background: transparent url(../img/MuteOff.png) no-repeat center center;
+}   
+
+
+.btnStOff{
+  background: transparent url(../img/StOff.png) no-repeat center center;
+}
+.btnStOff:hover, .btnStOff:focus{
+  background: transparent url(../img/StOn.png) no-repeat center center;
+}
+.btnStOn{
+  background: transparent url(../img/StOn.png) no-repeat center center;
+}   
+.btnStOn:hover, .btnStOn:focus{
+  background: transparent url(../img/StOff.png) no-repeat center center;
+}   
+
+
+.btnHelpOn{
+  background: transparent url(../img/Aide.png) no-repeat center center;
+}   
+.btnHelpOn:hover, .btnHelpOn:focus{
+  background: transparent url(../img/AideOver.png) no-repeat center center;
+} 
+
+.btnTranscriptOn{
+  background: transparent url(../img/Pdf.png) no-repeat center center;
+}   
+.btnTranscriptOn:hover, .btnTranscriptOn:focus{
+  background: transparent url(../img/PdfOver.png) no-repeat center center;
+} 
+
+.btnFsOn{
+  background: transparent url(../img/FsOn.png) no-repeat center center;
+}
+.btnFsOn:hover, .btnFsOn:focus{
+  background: transparent url(../img/FsOff.png) no-repeat center center;
+}
+.btnFsOff{
+  background: transparent url(../img/FsOff.png) no-repeat center center;
+}   
+.btnFsOff:hover, .btnFsOff:focus{
+  background: transparent url(../img/FsOn.png) no-repeat center center;
+}   */
+
+.displayNone{
+  display: none !important;
+}
+
+.displayBlock{
+  display: block !important;
+}
+
+.displayInline{
+  display: inline !important;
+}

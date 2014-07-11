@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Les balises sont à placer dans l'ordre d'apparition, de haut en bas -->
+<aide>
+
+	<title lang = "FRA">AIDE</title>
+	<title lang = "ANG">HELP</title>
+	
+	<list>
+		<btn name="fullscreen">
+			<btn_icon>img/aide/fs.png</btn_icon>
+			<btn_name lang = "FRA">Afficher la vidéo en plein écran</btn_name>
+			<btn_name lang = "ANG">Display the video in full screen</btn_name>
+		</btn>
+		
+		<btn name="ad">
+			<btn_icon>img/aide/ad.png</btn_icon>
+			<btn_name lang = "FRA">Activer ou désactiver l'audio-description</btn_name>
+			<btn_name lang = "ANG">Activate or deactivate the audio description</btn_name>
+		</btn>
+		
+		<btn name="st">
+			<btn_icon>img/aide/st.png</btn_icon>
+			<btn_name lang = "FRA">Activer ou désactiver le sous-titrage</btn_name>
+			<btn_name lang = "ANG">Dislay or hide the subtitles</btn_name>
+		</btn>
+		
+		<btn name="pdf">
+			<btn_icon>img/aide/pdf.png</btn_icon>
+			<btn_name lang = "FRA">Afficher le transcript de la vidéo</btn_name>
+			<btn_name lang = "ANG">Display the transcript of the video</btn_name>
+		</btn>
+		
+	</list>
+	
+	<accessi_text lang = "FRA">Player vidéo accessible et conforme aux normes WCAG 2.0</accessi_text>
+	<ipedis lang = "FRA">Réalisé par Ipedis, pour La Poste</ipedis>
+	
+	<accessi_text lang = "ANG">Accessible video player. Consistent with the WCAG 2.0.</accessi_text>
+	<ipedis lang = "ANG">Made by Ipedis for La Poste</ipedis>
+		
+</aide>

@@ -1,0 +1,35 @@
+{
+	"toolTip" : {
+		"play":"Play",
+		"pause":"Pause",
+		"muteOn":"Volume On",
+		"muteOff":"Volume Off",
+		"volumeBar":"Volume",
+		"fullscreenOn":"Full Screen",
+		"fullscreenOff":"Exit Full Screen",
+		"stOn":"Caption On",
+		"stOff":"Caption Off",
+		"pdf":"Transcript",
+		"aide":"Help"
+	},
+	"interface" : {
+		"enableSound":"Activate sound",
+		"disableSound":"Deactivate sound",
+		"stopMovie":"Stop video",
+		"playMovie":"Play video",
+		"enableSubtitle":"Activate caption",
+		"disableSubtitle":"Deactivate caption",
+		"showMovieInFullScreen":"Display video in full screen",
+		"enableOrDisableSubTitle":"Activate or deactivate caption",
+		"showTranscriptOnMovie":"Display transcript",
+		"moviePlayerAccessible":"Accessible video player WCAG 2.0 compliant",
+		"poweredBy":"By",
+		"ForCompany":"for Company",
+		"help":"help",
+		"movieHelp":"Video help",
+		"cutSound":"Mute sound",
+		"fullscreenMode":"Full screen mode",
+		"showTranscript":"Display transcript",
+		"flashAlternative":"Flash player cannot be displayed, please activate the flash player plugin and make sure that JavaScript is enabled."
+	}
+}

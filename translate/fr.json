@@ -1,0 +1,35 @@
+{
+	"toolTip" : {
+		"play":"Play",
+		"pause":"Pause",
+		"muteOn":"Volume On",
+		"muteOff":"Volume Off",
+		"volumeBar":"Volume",
+		"fullscreenOn":"Plein \u00e9cran",
+		"fullscreenOff":"Sortir du plein \u00e9cran",
+		"stOn":"Sous-titres On",
+		"stOff":"Sous-titres Off",
+		"pdf":"Transcript",
+		"aide":"Aide"
+	},
+	"interface" : {
+		"enableSound":"Activer le son",
+		"disableSound":"D\u00e9sactiver le son",
+		"stopMovie":"Interrompre la vid\u00e9o",
+		"playMovie":"Lire la vid\u00e9o",
+		"enableSubtitle":"Activer le sous-titrage",
+		"disableSubtitle":"D\u00e9sactiver le sous-titrage",
+		"showMovieInFullScreen":"Afficher la vid\u00e9o en plein \u00e9cran",
+		"enableOrDisableSubTitle":"Activer ou d\u00e9sactiver le sous-titrage",
+		"showTranscriptOnMovie":"Afficher le transcript de la vid\u00e9o",
+		"moviePlayerAccessible":"Player vid\u00e9o accessible et conforme aux normes WCAG 2.0",
+		"poweredBy":"R\u00e9alis\u00e9 par",
+		"ForCompany":"pour l'Organisation",
+		"help":"AIDE",
+		"movieHelp":"Aide de la vidéo",
+		"cutSound":"Couper le son",
+		"fullscreenMode":"Mode plein écran",
+		"showTranscript":"Afficher le transcript",
+		"flashAlternative":"Le player Flash ne peut &#234;tre affich\u00e9, veuillez activer le plugin Flash et veillez à ce que JavaScript soit activ\u00e9"
+	}
+}

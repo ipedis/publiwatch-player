@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<accueil>
+	<texte lang="FRA">
+Bienvenue sur le lecteur accessible, conforme aux normes WCAG 2.0. 
+La navigation se fait au clavier via la touche Tabulation. 
+Pour activer un bouton, appuyez sur la touche espace.
+Le son peut être ajusté avec la combinaison de touches: ctrl + shift + page suivante ou précédente
+Pour avancer dans la vidéo : appuyez sur la touchez "inférieur à", pour reculer dans la vidéo : appuez sur la combinaison de touches shift + 'inférieur à".
+	</texte>
+	
+	<texte lang="ANG">
+Welcome to the accessible video player, consistent with the WCAG 2.0.
+The player is browsed with the keyboard with the Tab key.
+Press the space bar to activate a button.
+The sound can be adjust with combination of keys: ctrl + shift + page Up or Down
+To move forward in the video : press the "lower than" key, to move backward : press shift and the "lower than" key.
+	</texte>	
+</accueil>
