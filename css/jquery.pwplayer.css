@@ -35,9 +35,9 @@ video{
   height:36px;
 }
 
-
 .movieControlBar button{
   /*height:36px;*/
+  background-color:transparent;
   margin:0;
   padding: 0;
   width: 45px;
@@ -46,6 +46,10 @@ video{
   position: absolute;
   top:0;
   left:0;
+}
+
+.movieControlBar button img{
+  width:100%;
 }
 
 .movieControlBar .btnMute{
