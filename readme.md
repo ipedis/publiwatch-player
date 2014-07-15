@@ -1,5 +1,5 @@
 # PubliWatch Player
-#### Player accessible
+#### Player vidéo accessible
 
 ## Exemple d'intégration
 
@@ -43,6 +43,11 @@ Initialiser le plugin en appelant la méthode pwplayer() à partir de l'ID de la
 * `autoplay` lecture automatique de la vidéo (valeur par défaut : `false`)
 * `prefixCss` permet de définir un préfixe s'ajoutant aux classes CSS (valeur par défaut : `""`)
 * `poster` permet de spécifier une image de prévisualisation de la vidéo, en ajoutant l'attribut poster à la balise vidéo (valeur par défaut : `""`)
+
+
+#### Démo :
+Une démonstration du player est disponible à cette url :
+ http://demo.ipedis.com/video-player/
 
 ## API Externe
 
