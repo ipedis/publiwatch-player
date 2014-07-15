@@ -38,6 +38,7 @@ video{
 
 .movieControlBar button{
   /*height:36px;*/
+  margin:0;
   padding: 0;
   width: 45px;
   cursor: pointer;
