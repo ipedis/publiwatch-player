@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<accessibility>
+
+	<playIco_name lang = "FRA">Play</playIco_name>
+	<playIco_description lang = "FRA">Lire la vidéo</playIco_description>
+
+	<play_name lang = "FRA">Play</play_name>
+	<play_description lang = "FRA">Lire ou interrompre la vidéo</play_description>
+	
+	<pause_name lang = "FRA">Pause</pause_name>
+	<pause_description lang = "FRA">Lire ou interrompre la vidéo</pause_description>
+	
+	<muteOn_name lang = "FRA">Activer le son</muteOn_name>
+	<muteOn_description lang = "FRA">Appuyez sur les touches ctrl + shift + page suivante ou précédente pour ajuster le volume</muteOn_description>
+	
+	<muteOff_name lang = "FRA">Désactiver le son</muteOff_name>
+	<muteOff_description lang = "FRA">Appuyez sur les touches ctrl + shift + page suivante ou précédente pour ajuster le volume</muteOff_description>
+	
+	<subtitleOn_name lang = "FRA">Activer le sous-titrage</subtitleOn_name>
+	<subtitleOn_description lang = "FRA"></subtitleOn_description>
+	
+	<subtitleOff_name lang = "FRA">Désactiver le sous-titrage</subtitleOff_name>
+	<subtitleOff_description lang = "FRA"></subtitleOff_description>
+	
+	<transcript_name lang = "FRA">Afficher le transcript sur une autre page</transcript_name>
+	<transcript_description lang = "FRA"></transcript_description>
+	
+	<fullscreenOn_name lang = "FRA">Mode plein écran</fullscreenOn_name>
+	<fullscreenOn_description lang = "FRA"></fullscreenOn_description>
+	
+	<fullscreenOff_name lang = "FRA">Quitter le mode plein écran</fullscreenOff_name>
+	<fullscreenOff_description lang = "FRA"></fullscreenOff_description>
+	
+
+
+	<playIco_name lang = "ANG">Play</playIco_name>
+	<playIco_description lang = "ANG">Play the video</playIco_description>
+
+	<play_name lang = "ANG">Play</play_name>
+	<play_description lang = "ANG">Play and stop the video</play_description>
+	
+	<pause_name lang = "ANG">Pause</pause_name>
+	<pause_description lang = "ANG">Play and stop the video</pause_description>
+	
+	<muteOn_name lang = "ANG">Activate the sound</muteOn_name>
+	<muteOn_description lang = "ANG">The sound can be adjust with combination of keys: ctrl + shift + page Up or Down</muteOn_description>
+	
+	<muteOff_name lang = "ANG">Deactivate the sound</muteOff_name>
+	<muteOff_description lang = "ANG">The sound can be adjust with combination of keys: ctrl + shift + page Up or Down</muteOff_description>
+	
+	<subtitleOn_name lang = "ANG">Display subtitles</subtitleOn_name>
+	<subtitleOn_description lang = "ANG"></subtitleOn_description>
+	
+	<subtitleOff_name lang = "ANG">Hide subtitles</subtitleOff_name>
+	<subtitleOff_description lang = "ANG"></subtitleOff_description>
+	
+	<transcript_name lang = "ANG">Display the transcript on an other page</transcript_name>
+	<transcript_description lang = "ANG"></transcript_description>
+	
+	<fullscreenOn_name lang = "ANG">Full screen mode</fullscreenOn_name>
+	<fullscreenOn_description lang = "ANG"></fullscreenOn_description>
+	
+	<fullscreenOff_name lang = "ANG">Exit the full screen mode</fullscreenOff_name>
+	<fullscreenOff_description lang = "ANG"></fullscreenOff_description>
+
+</accessibility>

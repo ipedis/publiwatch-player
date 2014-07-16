@@ -7,25 +7,25 @@
 	
 	<list>
 		<btn name="fullscreen">
-			<btn_icon>img/aide/fs.png</btn_icon>
+			<btn_icon>./img/aide/fs.png</btn_icon>
 			<btn_name lang = "FRA">Afficher la vidéo en plein écran</btn_name>
 			<btn_name lang = "ANG">Display the video in full screen</btn_name>
 		</btn>
 		
 		<btn name="ad">
-			<btn_icon>img/aide/ad.png</btn_icon>
+			<btn_icon>./img/aide/ad.png</btn_icon>
 			<btn_name lang = "FRA">Activer ou désactiver l'audio-description</btn_name>
 			<btn_name lang = "ANG">Activate or deactivate the audio description</btn_name>
 		</btn>
 		
 		<btn name="st">
-			<btn_icon>img/aide/st.png</btn_icon>
+			<btn_icon>./img/aide/st.png</btn_icon>
 			<btn_name lang = "FRA">Activer ou désactiver le sous-titrage</btn_name>
 			<btn_name lang = "ANG">Dislay or hide the subtitles</btn_name>
 		</btn>
 		
 		<btn name="pdf">
-			<btn_icon>img/aide/pdf.png</btn_icon>
+			<btn_icon>./img/aide/pdf.png</btn_icon>
 			<btn_name lang = "FRA">Afficher le transcript de la vidéo</btn_name>
 			<btn_name lang = "ANG">Display the transcript of the video</btn_name>
 		</btn>
