@@ -1,4 +1,6 @@
-﻿package{
+﻿// by Ipedis Entreprise
+// Licence: Creative Common 3.0 BY-SA <https://creativecommons.org/licenses/by-sa/3.0/legalcode>
+package{
 	
 	import flash.display.*;
 	import flash.events.Event;

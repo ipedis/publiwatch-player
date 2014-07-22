@@ -1,4 +1,6 @@
-﻿package nl.inlet42.data.subtitles
+﻿// by Ipedis Entreprise
+// License: Creative Common 3.0 BY-SA <https://creativecommons.org/licenses/by-sa/3.0/legalcode>
+package nl.inlet42.data.subtitles
 {
 	public class SubTitleData
 	{
